@@ -2,7 +2,12 @@
    padding:5px
 }
 
-
+.header-name {
+  margin-left:15px;
+  font-weight:bold;
+  font-size:1.7em;
+  font-family:"Kalam"
+}
 
 #detail-table {
 margin: 0 0 16px;
@@ -37,13 +42,79 @@ text-align: center;
 
 .contact-box{
 width:100%;
-border:5px solid #076086;
+border:5px solid #F1A208 ;
 padding:15px;
-margin:20px 0px;
-color:#076086;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
-
+margin-top:40px;
+color:#076086 ;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 5px 5px 5px 0px rgba(113, 76, 4, 0.8);
+-moz-box-shadow: 5px 5px 5px 0px rgba(113, 76, 4, 0.8);
+box-shadow: 5px 5px 5px 0px rgba(113, 76, 4, 0.8);
+text-align:center;
 
 }
+
+.about h2{
+  color:#076086 ;
+  font-family: 'Kalam';
+}
+
+.contact-box h4{
+  font-family: 'Kalam';
+  margin-bottom:0;
+  font-size:2.2rem;
+}
+
+.contact-box h5{
+  color:#212529;
+  margin-bottom:25px;
+}
+
+@media (min-width: 320px) {
+#detail-table {
+  margin-top:40px;
+}
+
+.about {margin-top:40px;}
+ }
+
+
+@media (min-width: 768px) {
+  .contact-box h4{
+    font-size:1.7rem;
+    margin-bottom:10px;
+  }
+  .contact-box h5{
+    font-size:1.15rem;
+  }
+  #detail-table {
+    margin-top:10px;
+  }
+
+  .about {margin-top:20px;}
+   }
+}
+
+
+@media (min-width: 992px) {
+    .about h2 {
+      text-align:right;
+      font-size:2.2rem;
+      margin-top:20px;
+    }
+
+    .contact-box h4{
+      font-size:2rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+  .about h2 {
+    text-align:right;
+    font-size:2.2rem;
+    margin-top:-20px;
+  }
+ }
