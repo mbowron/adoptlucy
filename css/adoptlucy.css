@@ -37,9 +37,13 @@ text-align: center;
 
 .contact-box{
 width:100%;
-background-color:#076086;
+border:5px solid #076086;
 padding:15px;
 margin:20px 0px;
+color:#076086;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
 
 
 }
